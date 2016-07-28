@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{19B0ECA9-F552-45CB-9BC0-E13D5D983674}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{228241F0-ED8F-4D88-A2AE-5CCA5400800D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A24BE8C9-03AC-42B4-85BA-60DC97FE459A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{99141D73-AD32-4780-8D9C-BA67E6C47C14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicBll", "Business\MusicBll\MusicBll.csproj", "{D97E0C49-0A3D-40BA-A10E-6280A9D6B925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMusicSysDao", "DataAccess\IMusicSysDao\IMusicSysDao.csproj", "{940F67ED-4BCC-4A24-B480-F00A4FA667C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicSysDao", "DataAccess\MusicSysDao\MusicSysDao.csproj", "{3BCE0199-75DE-4C7D-A1E7-7DE52FEC86F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "Domain\ViewModel\ViewModel.csproj", "{466B0B4C-7CC4-494D-9BCB-454D2DAA5B83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayWinfrom", "Presentation\MusicPlayWinfrom\MusicPlayWinfrom.csproj", "{A57F1CF0-B121-48C4-B149-653D9260E4EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{D205473B-C2A4-45ED-BD77-7E4C1D06F52E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolKit", "ToolKit\ToolKit.csproj", "{AB8590D5-BE9C-4D94-B6F7-1F4916B75BBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D97E0C49-0A3D-40BA-A10E-6280A9D6B925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97E0C49-0A3D-40BA-A10E-6280A9D6B925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97E0C49-0A3D-40BA-A10E-6280A9D6B925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97E0C49-0A3D-40BA-A10E-6280A9D6B925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940F67ED-4BCC-4A24-B480-F00A4FA667C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940F67ED-4BCC-4A24-B480-F00A4FA667C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940F67ED-4BCC-4A24-B480-F00A4FA667C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940F67ED-4BCC-4A24-B480-F00A4FA667C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BCE0199-75DE-4C7D-A1E7-7DE52FEC86F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BCE0199-75DE-4C7D-A1E7-7DE52FEC86F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BCE0199-75DE-4C7D-A1E7-7DE52FEC86F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BCE0199-75DE-4C7D-A1E7-7DE52FEC86F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{466B0B4C-7CC4-494D-9BCB-454D2DAA5B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{466B0B4C-7CC4-494D-9BCB-454D2DAA5B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{466B0B4C-7CC4-494D-9BCB-454D2DAA5B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{466B0B4C-7CC4-494D-9BCB-454D2DAA5B83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A57F1CF0-B121-48C4-B149-653D9260E4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A57F1CF0-B121-48C4-B149-653D9260E4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A57F1CF0-B121-48C4-B149-653D9260E4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A57F1CF0-B121-48C4-B149-653D9260E4EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8590D5-BE9C-4D94-B6F7-1F4916B75BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8590D5-BE9C-4D94-B6F7-1F4916B75BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8590D5-BE9C-4D94-B6F7-1F4916B75BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8590D5-BE9C-4D94-B6F7-1F4916B75BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D97E0C49-0A3D-40BA-A10E-6280A9D6B925} = {19B0ECA9-F552-45CB-9BC0-E13D5D983674}
+		{940F67ED-4BCC-4A24-B480-F00A4FA667C2} = {228241F0-ED8F-4D88-A2AE-5CCA5400800D}
+		{3BCE0199-75DE-4C7D-A1E7-7DE52FEC86F8} = {228241F0-ED8F-4D88-A2AE-5CCA5400800D}
+		{466B0B4C-7CC4-494D-9BCB-454D2DAA5B83} = {A24BE8C9-03AC-42B4-85BA-60DC97FE459A}
+		{A57F1CF0-B121-48C4-B149-653D9260E4EA} = {99141D73-AD32-4780-8D9C-BA67E6C47C14}
+		{AB8590D5-BE9C-4D94-B6F7-1F4916B75BBB} = {D205473B-C2A4-45ED-BD77-7E4C1D06F52E}
+	EndGlobalSection
+EndGlobal
